@@ -56,3 +56,9 @@
         height: 25%;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .proyectos > div > img {
+        width: 90%;
+    }
+}

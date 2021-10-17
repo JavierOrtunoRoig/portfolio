@@ -35,3 +35,25 @@ form > span {
     }
 
 }
+
+@media screen and (max-width: 500px) {
+
+    .contacto {
+        width: 100%;
+        max-width: none;
+        position: initial;
+        left: 0;
+    }
+
+    form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    input {
+        width: 100%;
+    }
+}

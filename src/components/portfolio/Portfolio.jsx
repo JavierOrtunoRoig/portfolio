@@ -9,19 +9,6 @@ export const Portfolio = () => {
             <span>Portfolio</span>
             <div className="proyectos">
                 <Proyecto foto={ epubApp } />
-                <Proyecto foto={ epubApp } />
-                <Proyecto foto={ epubApp } />
-                <Proyecto foto={ epubApp } />
-                <Proyecto foto={ epubApp } />
-                <Proyecto foto={ epubApp } />
-                <Proyecto foto={ epubApp } />
-                <Proyecto foto={ epubApp } />
-                <Proyecto foto={ epubApp } />
-                <Proyecto foto={ epubApp } />
-                <Proyecto foto={ epubApp } />
-                <Proyecto foto={ epubApp } />
-                <Proyecto foto={ epubApp } />
-                <Proyecto foto={ epubApp } />
             </div>
         </div>
     );
