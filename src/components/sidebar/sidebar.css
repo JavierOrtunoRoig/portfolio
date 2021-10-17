@@ -14,6 +14,7 @@ a img {
 
 .foto_perfil {
     border-radius: 50%;
+    max-width: 90%;
 }
 
 .perfil {
