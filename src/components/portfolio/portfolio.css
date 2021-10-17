@@ -1,0 +1,31 @@
+.portfolio {
+    height: 100vh;
+    background-color: #242727;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.portfolio > span {
+    color: #008ccf;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-left: 20%;
+    height: 25%;
+}
+
+.proyectos {
+    margin-left: 24%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.proyectos > div > img {
+    max-width: 300px;
+    border-radius: 20px;
+    margin: 10px;
+}
