@@ -1,0 +1,26 @@
+.contacto {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 80%;
+    position: absolute;
+    right: 0px;
+}
+
+form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+form > span {
+    color: #008CCF;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    align-self: center;
+    margin-bottom: 30px;
+}
