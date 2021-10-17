@@ -113,3 +113,9 @@ a img {
         left: -10px;
     }
 }
+
+@media screen and (max-width: 991px) {
+    aside {
+        display: none;
+    }
+}

@@ -24,3 +24,14 @@ form > span {
     align-self: center;
     margin-bottom: 30px;
 }
+
+@media screen and (max-width: 991px) {
+
+    .contacto {
+        width: 100%;
+        max-width: none;
+        position: initial;
+        left: 0;
+    }
+
+}

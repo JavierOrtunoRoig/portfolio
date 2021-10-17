@@ -26,9 +26,7 @@
 }
 
 .softSkill {
-    margin-top: 10%;
     height: 50%;
-
 }
 
 .softSkill span {
@@ -84,7 +82,7 @@
     
     .softSkill {
         height: 30%;
-        
+        margin-top: 10%;
     }
     
     .hardSkill span {
@@ -106,5 +104,45 @@
     
     .skill p {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .skills {
+        justify-content: start;
+        align-items: center;
+        position: initial;
+        left: 0;
+        max-width: none;
+    }
+
+    .hardSkill span {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+
+    .hardSkillList, .softSkillList {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .softSkillList, .hardSkillList {
+        flex-wrap: wrap;
+        flex-direction: column;
+        overflow-x: scroll;
+        height: 150px;
+        width: 80vw;
+    }
+
+    .hardSkill span {
+        margin-bottom: 10px;
     }
 }
