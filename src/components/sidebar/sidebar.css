@@ -1,0 +1,80 @@
+aside {
+    height: 100vh;
+    min-width: 15%;
+    background-color: #008CCF;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+
+
+
+a img {
+    max-width: 35px;
+}
+
+.foto_perfil {
+    border-radius: 50%;
+}
+
+.perfil {
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ol {
+    margin-top: 30px;
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+}
+
+li {
+    background-color: #242727;
+    color: white;
+    font-size: 1.3em;
+    height: 80px;
+    width: 100%;
+    line-height: 80px; /* Permite centrar horizontalmente*/
+    border-right: #008CCF 1px solid;
+    position: relative;
+}
+
+li::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: .5px;
+    background-color: #008CCF;
+    right: 0px;
+    transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+li:hover:before {
+    left: 0;
+    width: 100%;
+}
+
+li::after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: .5px;
+    background-color: #008CCF;
+    right: 0px;
+    top: 80px;
+    transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    z-index: 1;
+}
+
+li:hover:after {
+    left: 0;
+    width: 100%;
+}
+
+ol > a {
+    text-decoration: none;
+}

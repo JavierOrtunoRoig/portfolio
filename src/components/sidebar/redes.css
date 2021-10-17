@@ -1,0 +1,23 @@
+.redes-div {
+    display: flex;
+    justify-content: center;
+}
+
+.redes {
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 60%;
+}
+
+.enlace {
+    transition: transform .5s ease;
+}
+
+.enlace:hover {
+    transform: translateY(-4px)
+}
