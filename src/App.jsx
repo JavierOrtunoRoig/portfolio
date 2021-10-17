@@ -1,6 +1,6 @@
 import { Introduccion } from './components/introducción/Introduccion';
 import './app.css';
-import Sidebar from './components/sidebar/sidebar';
+import Sidebar from './components/sidebar/Sidebar';
 import { SkillsList } from './components/skills/SkillsList';
 import { Portfolio } from './components/portfolio/Portfolio';
 import { Contacto } from './components/contacto/Contacto';
