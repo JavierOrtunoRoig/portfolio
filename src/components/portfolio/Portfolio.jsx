@@ -1,5 +1,5 @@
 import './portfolio.css';
-import { epub_app } from '../../helpers/fotos';
+import { epubApp } from '../../helpers/fotos';
 import Proyecto from './Proyecto';
 
 export const Portfolio = () => {
@@ -8,7 +8,7 @@ export const Portfolio = () => {
         <div id="portfolio" className="portfolio">
             <span>Portfolio</span>
             <div className="proyectos">
-                <Proyecto foto={ epub_app } />
+                <Proyecto foto={ epubApp } />
             </div>
         </div>
     );

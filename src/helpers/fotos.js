@@ -9,7 +9,7 @@ import javascript from '../assets/js.png';
 import linkedin from '../assets/linkedin.png';
 import miFoto from '../assets/miFoto.jpg';
 import react from '../assets/react.png';
-import epub_app from '../assets/epub-app.png';
+import epubApp from '../assets/epub-app.png';
 
 export {
     cpp,
@@ -23,5 +23,5 @@ export {
     linkedin,
     miFoto,
     react,
-    epub_app
+    epubApp
 };
