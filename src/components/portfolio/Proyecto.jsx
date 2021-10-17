@@ -5,15 +5,6 @@ const Proyecto = ({ foto }) => {
     return (
         <div>
             <img src={ foto } />
-            <img src={ foto } />
-            <img src={ foto } />
-            <img src={ foto } />
-            <img src={ foto } />
-            <img src={ foto } />
-            <img src={ foto } />
-            <img src={ foto } />
-            <img src={ foto } />
-            <img src={ foto } />
         </div>
     );
 

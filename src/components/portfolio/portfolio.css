@@ -3,7 +3,7 @@
     background-color: #242727;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: spa;
     align-items: center;
     flex-direction: column;
 
@@ -14,7 +14,8 @@
     font-size: 50px;
     font-weight: bold;
     letter-spacing: 5px;
-    margin-left: 20%;
+    margin-left: 24%;
+    margin-top: 100px;
     height: 25%;
 }
 
@@ -22,6 +23,7 @@
     margin-left: 24%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .proyectos > div > img {
