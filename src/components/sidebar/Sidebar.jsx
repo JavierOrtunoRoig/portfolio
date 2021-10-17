@@ -13,6 +13,15 @@ export default function Sidebar() {
             </div>
 
             <Redes github={ github } linkedin={ linkedin }/>
+
+            <div className="informacion">
+                <ol>
+                    <li>Nombre: Javier Ortuño Roig</li>
+                    <li>Estudios: Ingeniería del Software en la universidad de Málaga</li>
+                    <li>Nivel de inglés: Medio</li>
+                </ol>
+            </div>
+
             <ListaEnlaces />
         </aside>
     );

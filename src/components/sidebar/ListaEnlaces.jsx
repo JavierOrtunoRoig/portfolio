@@ -2,10 +2,9 @@ import { handleContacto, handleInicio, handlePortfolio, handleSkills } from '../
 
 export const ListaEnlaces = () => {
 
-
     return (
         <div>
-            <ol>
+            <ol className="listaRedes">
                 <a onClick={ handleInicio } href="#inicio"><li>Inicio</li></a>
                 <a onClick={ handleSkills } href="#skills"><li>Skill</li></a>
                 <a onClick={ handlePortfolio } href="portolio"><li>Portfolio</li></a>

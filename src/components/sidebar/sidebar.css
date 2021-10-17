@@ -1,13 +1,12 @@
 aside {
     height: 100vh;
     min-width: 15%;
+    max-width: 20%;
     background-color: #008CCF;
     position: fixed;
     left: 0px;
     top: 0px;
 }
-
-
 
 a img {
     max-width: 35px;
@@ -25,14 +24,14 @@ a img {
     justify-content: space-around;
 }
 
-ol {
+.listaRedes {
     margin-top: 30px;
     list-style-type: none;
     padding: 0px;
     text-align: center;
 }
 
-li {
+.listaRedes li {
     background-color: #242727;
     color: white;
     font-size: 1.3em;
@@ -43,7 +42,7 @@ li {
     position: relative;
 }
 
-li::before {
+.listaRedes li::before {
     content: "";
     position: absolute;
     width: 0;
@@ -53,12 +52,12 @@ li::before {
     transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 
-li:hover:before {
+.listaRedes li:hover:before {
     left: 0;
     width: 100%;
 }
 
-li::after {
+.listaRedes li::after {
     content: "";
     position: absolute;
     width: 0px;
@@ -70,11 +69,45 @@ li::after {
     z-index: 1;
 }
 
-li:hover:after {
+.listaRedes li:hover:after {
     left: 0;
     width: 100%;
 }
 
-ol > a {
+.listaRedes > a {
     text-decoration: none;
+}
+
+.informacion {
+    color: white;
+}
+
+.informacion ol {
+    list-style: none;
+    padding-left: 20px
+}
+
+.informacion li {
+    margin: 10px;
+}
+
+.informacion li:before {
+    content: ">";
+    position: relative;
+    left: -10px;
+    animation: izq-der infinite ease 2s;
+}
+
+@keyframes izq-der{
+    0% {
+        left: -10px;
+    }
+
+    50% {
+        left: -20px;
+    }
+
+    100% {
+        left: -10px;
+    }
 }
