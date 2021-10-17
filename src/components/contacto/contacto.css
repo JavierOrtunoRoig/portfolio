@@ -5,9 +5,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width: 80%;
-    position: absolute;
-    right: 0px;
+    max-width: 85%;
+    position: relative;
+    left: 15%;
 }
 
 form {

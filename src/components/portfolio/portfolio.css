@@ -1,12 +1,14 @@
 .portfolio {
     height: 100vh;
+    width: 100vw;
     background-color: #242727;
-    width: 100%;
     display: flex;
-    justify-content: spa;
     align-items: center;
     flex-direction: column;
-
+    position: relative;
+    left: 15%;
+    max-width: 85%;
+    overflow: hidden;
 }
 
 .portfolio > span {
@@ -14,13 +16,11 @@
     font-size: 50px;
     font-weight: bold;
     letter-spacing: 5px;
-    margin-left: 24%;
-    margin-top: 100px;
+    margin-top: 40px;
     height: 25%;
 }
 
 .proyectos {
-    margin-left: 24%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

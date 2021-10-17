@@ -6,11 +6,12 @@
     align-items: center;
     flex-direction: column;
     position: relative;
+    left: 15%;
+    max-width: 85%;
 }
 
 .hardSkill {
     margin-bottom: 20px;
-    margin-left: 20%;
     height: 30%;
 }
 
@@ -25,7 +26,6 @@
 }
 
 .softSkill {
-    margin-left: 20%;
     height: 45%;
     margin-top: 10%;
 }
