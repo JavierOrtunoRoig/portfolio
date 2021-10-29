@@ -10,6 +10,11 @@ import linkedin from '../assets/linkedin.png';
 import miFoto from '../assets/miFoto.jpg';
 import react from '../assets/react.png';
 import epubApp from '../assets/epub-app.png';
+import communication from '../assets/communication.png';
+import teamwork from '../assets/teamwork.png';
+import adaptability from '../assets/adaptability.png';
+import opennessToCriticism from '../assets/opennessToCriticism.png';
+import timeManagement from '../assets/timeManagement.png';
 
 export {
     cpp,
@@ -23,5 +28,10 @@ export {
     linkedin,
     miFoto,
     react,
-    epubApp
+    epubApp,
+    communication,
+    teamwork,
+    adaptability,
+    opennessToCriticism,
+    timeManagement
 };

@@ -9,7 +9,6 @@ export const Contacto = () => {
 
     return (
         <div id="contacto" className="contacto">
-
             <Form>
                 <span>Contáctame</span>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
