@@ -24,14 +24,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* filter: drop-shadow(0px 25px 9px black); */
     filter: drop-shadow(0px 10px 9px black);
-    transition: filter 2s ease, transform 1s ease;;
+    transition: filter 2s ease, transform 0.5s ease;
     
 }
 
 .proyectos:hover {
-    filter: drop-shadow(0px 25px 9px black);
+    filter: drop-shadow(0px 25px 9px black) blur(3px);
     transform: translateY(-5px);
 }
 
